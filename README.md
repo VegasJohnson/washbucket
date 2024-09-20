@@ -1,0 +1,22 @@
+--------
+-- Item  -- Place this in your core shared items.lua --
+--------
+
+['washkit']         = {['name'] = 'washkit',        ['label'] = 'Wash Bucket',          ['weight'] = 10,    ['type'] = 'item',  ['image'] = 'washbucket.png',                   ['unique'] = false, ['useable'] = true,     ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'used to wash up'},
+
+
+---------
+
+Place wash.lua into 
+
+	resources\[framework]\rsg-essentials\client ( folder )
+	
+	
+Place washs.lua into 
+
+	resources\[framework]\rsg-essentials\server ( folder )
+	
+	
+Place washbucket.png into your 
+
+resources\[framework]\rsg-inventory\html\images  ( folder )
